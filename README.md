@@ -16,15 +16,37 @@ Refactoriza el código de manera que sea REALMENTE JavaScript moderno:
 ## 1. Basic Functions
 ### Basic sum
 ```javascript
-
+const sum = (a, b) => a + b
 ```
-
 ### Basic multiplication
 ```javascript
-
+const multiply = (a, b) => a * b
 ```
-
 ## 2. Strings I
+```javascript
+const getCharCount = str => str.length
+```
+```javascript
+const shoutMyName = name => name.toUpperCase()
+```
+```javascript
+const lowerName = name => name.toLowerCase()
+```
+```javascript
+const getFirstCharacter = name => name[0]
+```
+```javascript
+const getLastCharacter = name => name[name.length -1]
+```
+```javascript
+const skipFirstCharacter = text => text.substring(1)
+```
+```javascript
+export const getDescription = text => text.substring(0,10); 
+```
+```javascript
+const concatInitials = (firstNameInitial, lastNameInitial) => firstNameInitial + lastNameInitial
+```
 
 ## 3. Numbers
 
